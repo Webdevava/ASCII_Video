@@ -6,6 +6,9 @@ html, body {
  color: #008000;
  font-size: 12pt;
  line-height: 10pt;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 canvas {
