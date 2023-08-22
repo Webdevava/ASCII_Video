@@ -8,7 +8,7 @@
 
 // const density = "Ñ@#W$9876543210?!abc;:+=-,._                    ";
 
-const density = "@B%8WM#*oahkbdpwmZO0QCJYXzcvnxrjft/\|()1{}[]-_+~<>i!lI;:,\"^`\'.               ";
+const density = "@B%8WM#*oahkbdpwmZO0QCJYXzcvnxrjft/\|()1{}[]-_+~<>i!lI;:,\"^`\'. ";
 
 // const density = "@%#*+=-:. ";
 
