@@ -11,11 +11,11 @@ html, body {
  display: flex;
  justify-content: center;
  align-items: center;
+ transform: scaleX(-1);
 }
 
 canvas {
  display: block;
  height:100%;
  width:100%;
- transform: scaleX(-1);
 }
