@@ -6,9 +6,9 @@
 // ASCII image source text: https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP
 // ASCII image weather API: https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4
 
-// const density = "Ñ@#W$9876543210?!abc;:+=-,._                    ";
+const density = "Ñ@#W$9876543210?!abc;:+=-,._                    ";
 
-const density = "@B%8WM#*oahkbdpwmZO0QCJYXzcvnxrjft/\|()1{}[]-_+~<>i!lI;:,\"^`\'. ";
+// const density = "@B%8WM#*oahkbdpwmZO0QCJYXzcvnxrjft/\|()1{}[]-_+~<>i!lI;:,\"^`\'. ";
 
 // const density = "@%#*+=-:. ";
 
