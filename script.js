@@ -6,7 +6,8 @@
 // ASCII image source text: https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP
 // ASCII image weather API: https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4
 
-const density = "Ñ@#W$9876543210?!abc;:+=-,._                    ";
+// const density = "Ñ@#W$9876543210?!abc;:+=-,._                    ";
+const density = "@%#*+=-:. ";
 
 let video;
 let asciiDiv;
@@ -28,12 +29,8 @@ function draw() {
       const g = video.pixels[pixelIndex + 1];
       const b = video.pixels[pixelIndex + 2];
       const avg = (r + g + b) / 3;
-
-      // Apply contrast enhancement
-      const contrastAvg = map(avg, 0, 255, 50, 200);
-
       const len = density.length;
-      const charIndex = floor(map(contrastAvg, 0, 255, 0, len));
+      const charIndex = floor(map(avg, 0, 255, 0, len));
       const c = density.charAt(charIndex);
       if (c == " ") asciiImage += "&nbsp;";
       else asciiImage += c;
@@ -42,4 +39,3 @@ function draw() {
   }
   asciiDiv.html(asciiImage);
 }
-
